@@ -13,7 +13,7 @@ jobs:
       matrix:
         DEVICE: [pbpro]
         EDITION: [gnome,kde-plasma,mate,minimal,sway,xfce]
-        BRANCH: [stable]
+        BRANCH: [unstable]
     steps:
       -
         id: time
